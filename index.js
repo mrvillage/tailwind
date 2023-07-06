@@ -1,5 +1,4 @@
 const plugin = require("tailwindcss/plugin");
-const typography = require("@tailwindcss/typography");
 
 module.exports = plugin(
   function ({ matchUtilities, theme, addVariant }) {
@@ -37,7 +36,6 @@ module.exports = plugin(
         1000: "1000ms",
       },
     },
-    plugins: [typography],
     variants: ["typically"],
   }
 );
